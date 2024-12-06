@@ -1,0 +1,17 @@
+/* bugSolution.css */
+a:link {  /* unvisited link */
+  color: blue;
+}
+a:visited { /* visited link */
+  color: purple; /* This is limited in effectiveness due to security constraints */
+}
+a:hover { /* mouse over link */
+  color: green;
+}
+a:focus { /* keyboard focus on link */
+  color: orange;
+}
+/* The above code offers an alternative.  While :visited styling is unreliable,
+hover and focus styles provide feedback.  The use of more striking
+colors for hover/focus aids usability.  This should be a consideration
+when direct :visited styling fails. */
